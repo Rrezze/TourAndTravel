@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: 'Diphylleia', serif;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 .App-logo {
@@ -36,3 +38,4 @@
     transform: rotate(360deg);
   }
 }
+ 
