@@ -28,7 +28,7 @@ h1.text-home{
     font-weight: bolder;
     text-align: left;
     position: absolute;
-    top: 18.2%;
+    top: 8.2%;
     line-height: 1;
     color: white;
     left: 37%;
@@ -128,7 +128,7 @@ h1.text-home{
   }
 @media screen and (max-width:555px){
     .hero-text h1 {
-        margin-top: 82%;
+        /* margin-top: 82%; */
         padding: 10px 5px;
         /* margin-left: 35%; */
     }
@@ -145,7 +145,7 @@ h1.text-home{
 
     }
     .hero-text h1 {
-        margin-top: 90%;
+        /* margin-top: 90%; */
         padding: 10px 20px;
         /* margin-left: 35%; */
     }
@@ -158,7 +158,7 @@ h1.text-home{
         font-weight: bolder;
         text-align: left;
         position: absolute;
-        top: 11.6%;
+        top: 6.6%;
         line-height: 1;
         color: white;
         left: 45%;
@@ -168,4 +168,58 @@ h1.text-home{
         margin-top: -25px;
         font-size: 1.1rem;
     }    
+}
+.trips-section{
+    margin:4rem  6rem;
+    color: #2a2a2a;
+}
+.trips-section h1{
+    font-size: 3rem;
+}
+.trip-card{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.t-card{
+    width: 32%;
+    text-align: start;
+    box-shadow: 0px 5px 25px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 1rem .8rem;   
+}
+.t-image{
+    height: 200px;
+    overflow: hidden;
+    border-radius: 7px;
+}
+.t-image img{
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+    border-radius: 7px;
+}
+.t-image:hover img{
+    transform: scale(1.3);
+}
+.t-card h4{
+    text-align: center;
+    font-size: 1.3rem;
+    /* padding: .9rem 0 .2rem 0; */
+}
+.t-card p {
+    text-align: justify;
+}
+@media screen and (max-width:850px){
+    .trips-section{
+        margin: 4rem 2rem;
+    }
+    .trip-card{
+        flex-direction:column;
+    }
+    .t-card{
+        width: 92%;
+        margin-bottom: 1.5rem;
+    }
 }
