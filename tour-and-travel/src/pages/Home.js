@@ -8,6 +8,9 @@ import swiss2 from "../assets/swiss2.jpg";
 import "../components/DestinationCss.css";
 import italy from "../assets/italy.jpg";
 import italy2 from "../assets/italy2.jpg";
+import tangier from "../assets/tangier.jpg";
+import austria from "../assets/austria.jpg";
+import france from "../assets/france.jpg";
 
 const Home = () => {
   const textWithLineBreaks = (
@@ -70,22 +73,62 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="trips">
-        
+      <div className="trips-section">
+        <h1>Recent Trips</h1>
+        <p>All about discovering unique destinations</p>
+        <div className="trip-card">
+          <div className="t-card">
+            <div className="t-image">
+              <img src={tangier} alt="img" />
+            </div>
+            <h4>Tangier</h4>
+            <p>
+              Located on the Strait of Gibraltar where Africa meets Europe,
+              Tangier has long held strategic importance. Ruled through the
+              centuries by waves of conquerors including Romans, Vandals,
+              Byzantines, Arabs and Portuguese, the city is more than two and a
+              half millennia old, making it one of North Africa's most ancient.
+              The medina, kasbah, bazaars and souks are among the country's most
+              vibrant, and the beaches are excellent. In the last century,
+              Tangier became a hot spot for the international jet set.
+            </p>
+          </div>
+          <div className="t-card">
+            <div className="t-image">
+              <img src={austria} alt="img" />
+            </div>
+            <h4>Innsbruck</h4>
+            <p>
+              Nestled amidst majestic peaks, this breathtaking city offers a
+              unique combination of nature, history, and culture. You can stroll
+              its streets full of Baroque and Gothic architecture in the Old
+              Town, or discover one of the hip districts such as Mariahilf or
+              St. Nikolaus where Innsbruck’s uni students like to meet for a
+              drink. After, you can take a cable car from the city centre, and
+              in just 20 minutes, reach the Seegrube at 2,000 m (6,562 ft). Here
+              you can take in spectacular views of the Inn valley and the
+              surrounding mountains.
+            </p>
+          </div>
+          <div className="t-card">
+            <div className="t-image">
+              <img src={france} alt="img" />
+            </div>
+            <h4>Semur en Auxois</h4>
+            <p>
+              Semur-en-Auxois has a wealth of cobbled streets lined with ancient
+              houses, shops and cafes and unusual features to explore and enjoy.
+              The architecture is a mixture of half-timbered properties and more
+              'recent' houses with characterful faded shutters and wrought iron
+              balconies.Passing through the clock-gate at the top of the town
+              you find a small open square with several restaurants and shops to
+              explore, and the historic centre of Semur-en-Auxois is all easy to
+              reach from here..
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-    // <>
-    //
-    //   <Hero
-    //     cName="hero"
-    //     heroImg={heroImg}
-    //     title="Your journey starts here"
-    //     text={textWithLineBreaks}
-    //     buttonText="Travel Plan"
-    //     url="/"
-    //     btnClass="show"
-    //   />
-    // </>
   );
 };
 
