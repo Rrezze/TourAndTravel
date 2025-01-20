@@ -11,6 +11,7 @@ import italy2 from "../assets/italy2.jpg";
 import tangier from "../assets/tangier.jpg";
 import austria from "../assets/austria.jpg";
 import france from "../assets/france.jpg";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const textWithLineBreaks = (
@@ -128,6 +129,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
